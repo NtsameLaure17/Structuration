@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-.main__hero-description  .main__hero-description-mobile{
+.main__hero-description  {
     font-size: var( --subheadline-font-size);
     font-weight: var(--subheadline-font-weight);
     justify-content: center;
@@ -42,6 +42,10 @@
 
 .main__hero-description-mobile{
     display: none;
+    font-size: var( --subheadline-font-size);
+    font-weight: var(--subheadline-font-weight);
+    justify-content: center;
+    text-align: center;
 }
 
 .main__hero-button{
@@ -71,7 +75,7 @@
     padding: 20px;
     gap: 20px;
     border-radius: 20px;
-    /* color: rgb(var(--secondary-color)); */
+    color: rgb(var(--secondary-color));
 }
 
 .main__feature-icon{

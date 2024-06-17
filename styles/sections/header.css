@@ -69,7 +69,7 @@
     background-color: rgb(var(  --primary-color),0.8);
 }
 
-.nav__mobile.menu{
+.nav__mobile-menu{
     display: none;
 
 }

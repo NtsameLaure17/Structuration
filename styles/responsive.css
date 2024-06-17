@@ -1,3 +1,4 @@
+
 /* NAV */
 @media(max-width: 768px) {
     .nav__logo-img{
@@ -18,6 +19,7 @@
 @media(max-width: 768px){
  .main__hero-title-span{
     display: none;
+    text-align: center;
  } 
  
  .main__hero-description{
@@ -45,14 +47,13 @@
         flex-direction: column;
         gap: 50px;
         padding: 20px 10px;
-       
      }
     }
 
 
 @media(max-width: 768px){
  .logo__img{
-    width: 75px;
+    display: block;
  }
 
  .footer__legal{
@@ -60,4 +61,7 @@
     align-items: center;
  }
 
+ .footer{
+    width: 100%;
+ }
 }
