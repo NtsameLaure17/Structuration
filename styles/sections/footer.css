@@ -9,7 +9,7 @@
 
 
 .footer__container{
-    width: 100%;
+    /* width: 100%; */
     max-width: 1120px;
 
     display: flex;
@@ -55,9 +55,11 @@ display: flex;
 justify-content: space-between;
 }
 
-foooter__social-link{
+.footer__social-link{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
+
 
