@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .nav__logo{
@@ -67,6 +67,11 @@
 
 .nav__auth-button--signup:hover{
     background-color: rgb(var(  --primary-color),0.8);
+}
+
+.nav__mobile.menu{
+    display: none;
+
 }
 
 

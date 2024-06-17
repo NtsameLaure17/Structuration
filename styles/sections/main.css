@@ -33,11 +33,15 @@
     text-align: center;
 }
 
-.main__hero-description{
+.main__hero-description  .main__hero-description-mobile{
     font-size: var( --subheadline-font-size);
     font-weight: var(--subheadline-font-weight);
     justify-content: center;
     text-align: center;
+}
+
+.main__hero-description-mobile{
+    display: none;
 }
 
 .main__hero-button{
